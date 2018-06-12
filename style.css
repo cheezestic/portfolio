@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adonis</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster" rel="stylesheet">
+</head>
+<body>
+  <div class="navbar">
+    <a href=¨index.html¨>Home</a>
+    <a href=¨aboutme.html¨>About Me</a>
+    <a href=¨#feature¨>Feature Page</a>
+    <a href=¨#projects¨> Projects</a>
+  </div>
+  <div id="about-content">
+    <div class="my-picture">
+      <img src="https://yt3.ggpht.com/-sYhXFKiGcNI/AAAAAAAAAAI/AAAAAAAAAAA/mXqPJ-XvhdA/s800-c-k-no-mo-rj-c0xffffff/photo.jpg" height=250>
+    </div>
+    <div class="my-description">
+      <p> Helo my name Adonis I live in New York City I play basketball and I like cheesesticks. When im bored I Play fortnite. My favorite class is P.e</p>
+    </div>
+  </div>
+    </body>
+    </html>
+    .navbar a {
+  float:left;
+  display:block;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration: none;
+  color: #EDD97C;
+  font-family: 'Montserrat' , sans-serif;
+}
+
+.navbar a:hover {
+color: white;
+background: #EDD97C
+}
+#about-content{
+ display:flex;
+ justify-content:space-around;
+ margin-top:22%;
+}
+
+img {
+ border-radius:50%;
+ border:solid 5px #937oDB;
+ .my-description{
+  background:white;
+margin:3% ;
+padding:4%;
+font-family:'Montserrat', sans-serif;
+   
+ }
+ 
+ .project-container {
+   margin-top: 20%;
+   display:flex;
+   width: 100%;
+   justify-content:space-between;
+ }
+ 
+ span {
+  background: #9370DB;
+  width: 30%;
+  height: 60%;
+    
+     
+    
